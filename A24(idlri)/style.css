@@ -1,0 +1,38 @@
+a:link {
+    color: greenyellow;
+   }
+   
+a:visited{
+       color: red;
+   }
+   
+a:active {
+       color: green
+   }
+   
+a:hover {
+       color: darkgreen;
+    }  
+    
+p::first-line{
+        background-color: cyan;
+        font-size: 30px;
+    }
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 90px;
+    background-color: purple;
+}
+
+h1::before{
+    content: "Hej, "
+}
+
+h1::after{
+    content:"";
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: block;
+}
